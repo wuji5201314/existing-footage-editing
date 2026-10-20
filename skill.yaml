@@ -1,0 +1,10 @@
+name: local_existing_footage_editing
+title: Local existing footage editing
+description: 'Workflow layer for editing existing long footage (interviews, podcasts, livestreams, lectures) into publishable short clips: timestamped transcription with hallucination filtering, content inventory and scored semantically-complete segment selection, plan-first cutting with speech-truncation validation, a GIF/small/full-res export matrix, safe BGM premixing, and a per-clip publishing kit (schedule, title, hashtags, pinned comment, trifecta-checked cover) plus a published log for Douyin, TikTok or Reels. Use when cutting highlights or shorts from a video that already exists. Pairs with ffmpeg-skill for execution.'
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true
